@@ -24,6 +24,7 @@
 
                 <!-- Ijtimoiy tarmoqlar -->
                 <div>
+                    
                     <h2 class="text-xl font-extrabold text-yellow-400 tracking-wide mb-4">Bizni kuzatib boring</h2>
                     <div class="flex space-x-5">
                         <a href="/" class="text-gray-300 hover:text-yellow-400 text-2xl transition duration-300"><i class="fab fa-facebook"></i></a>
