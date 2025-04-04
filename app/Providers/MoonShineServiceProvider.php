@@ -33,9 +33,6 @@ class MoonShineServiceProvider extends ServiceProvider
                 MoonShineUserResource::class,
                 MoonShineUserRoleResource::class,
                 PostResource::class,
-                GamesResource::class,
-                TournamentResource::class,
-                TeamResource::class,
             ])
             ->pages([
                 ...$config->getPages(),

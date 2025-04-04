@@ -51,9 +51,6 @@ final class MoonShineLayout extends AppLayout
         return [
             ...parent::menu(),
             MenuItem::make('Posts', PostResource::class),
-            MenuItem::make('Games', GamesResource::class),
-            MenuItem::make('Tournaments', TournamentResource::class),
-            MenuItem::make('Teams', TeamResource::class),
         ];
     }
 
