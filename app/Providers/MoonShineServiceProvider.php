@@ -16,6 +16,8 @@ use App\MoonShine\Resources\PostResource;
 use App\MoonShine\Resources\GamesResource;
 use App\MoonShine\Resources\TournamentResource;
 use App\MoonShine\Resources\TeamResource;
+use App\MoonShine\Resources\PlayerResource;
+use App\MoonShine\Resources\ClubResource;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -33,6 +35,7 @@ class MoonShineServiceProvider extends ServiceProvider
                 MoonShineUserResource::class,
                 MoonShineUserRoleResource::class,
                 PostResource::class,
+                TeamResource::class,
             ])
             ->pages([
                 ...$config->getPages(),

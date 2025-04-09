@@ -36,6 +36,8 @@ use App\MoonShine\Resources\PostResource;
 use App\MoonShine\Resources\GamesResource;
 use App\MoonShine\Resources\TournamentResource;
 use App\MoonShine\Resources\TeamResource;
+use App\MoonShine\Resources\PlayerResource;
+use App\MoonShine\Resources\ClubResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -51,6 +53,7 @@ final class MoonShineLayout extends AppLayout
         return [
             ...parent::menu(),
             MenuItem::make('Posts', PostResource::class),
+            MenuItem::make('Teams', TeamResource::class),
         ];
     }
 
